@@ -17,4 +17,4 @@ spring:
           predicates:
             - Path=/GestionAbonnement/**
           filters:
-			- RewritePath=/GestionAbonnement/(?<path>.*), /${path}
+	    - RewritePath=/GestionAbonnement/(?<path>.*), /${path}
